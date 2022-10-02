@@ -1,0 +1,73 @@
+complexity kam krni hai toh sort kr do;uske baad thoi aur implementaion krni padegi; ye kam jab kregi agar humne phle brute force use ki means loop in loop 
+sum=sum+a[i],if they are talking about sum then , sum=sum+a[i] or a[i]+b[j]=sum;
+rev,0to n/2 , swap,j=n-1;
+//agar puri list chaiye toh sum =sum+a[i] kro or s[i] isme bhi sab aa jate hai sure se end tak;
+agar end ka chiaye toh variaable mein assgign kr de
+agar beginning ka chaiye toh break loop;//
+
+
+agar mereko puri list chaiye in string then sum =sum+s[i] krna padega;
+
+trick(if i need a last element thrn assign it ;if i mneed first elment then break loop;if i need list then just print a[i] ; i want to skip then continue statement)
+
+kabhi bhi if () ke andar n nhi rakhenge only i or j; most important 
+copy =assign;
+subarray =means for in for loop .
+two element whose sum closest to zero;sum=a[i]+b[i];and ans<sum;min=a[i];min2=a[j]
+humko last number chiye 9 but aa rahe hain output mein 1t0 9 to mein assign kar dunga min=a[i];cout<<min instead of cout<<a[i ];
+find subarray with given sum =j=i;sum=sum+a[i];
+last element chaiye assign karo kisi mein.
+
+sort=swap=temp;
+move neagtive nad positive another side, move all zeroes to end, merge two sorted array, two loops separately , int x=0;x++,a1[x]=a[i],similarly second loop only differnce is if condition 
+
+duplicate element konsa hai=21211,44332;j=i+1;count>1;43 ; if count=1
+remove duplicate=21211,44332;j=i+1;count==1;432
+frequency each member=freq[i]=-1;j=i+1;count++;freq[j]=0;freq[i]!=0;count=freq[i];
+find two repeating elements=j=i+1;count++;count>1;
+unique element = 22221;44332;j=0;i!=j;count==1;2;or a[i]==a[j] thencout<<a[i];
+
+merge array in desecending order =assign into new array of k =0;k++;swap ;a[i]>b[j];j=i+1;
+max and min=max<a[i];max=a[i];
+odd and even element in two differnt array= element ko dalo new array mein if(a%2==0),k=0;k++,a1[k]=a[i],similar for odd j=0;j++;a2[j]=a[i]
+
+sort element in ascending order=swap;for in for;j=i+1;a[i]>a[j];
+sort element in ascending order=swap;for in for;j=i+1;a[i]<a[j];
+
+position of element =if{a[i]<val},i=0;i++; count++; val=count;
+sorted given in ques = relation between a[i] and a[i+1] pr a[i-1];
+insert element =find position of inserted element by comparing then revrse loop a[i]=a[i-1];a[position]=val;
+
+second largest element in array =if(max<a[i]);max2=[0];max=a[0],max2=max;max=a[i];if(max2<a[i] && max!=a[i]);max2=a[i];
+second smallest element in array =if(min>a[i]);min2=[0];min=a[0],min2=min;min=a[i];if(min2<a[i] && min!=a[i]);max2=a[i];
+
+assign jab bhi krna hai dusre new array mein krna hai;
+transpose matrix=a1[j][i]=a[i][j];cout<<a1[i][j]
+sum of right diagonal=if(i==j);sum=sum+a[i];
+sum of left diagonal=if(i+j==n-1);sum =sum +a[i];
+
+for row =a[i][j];
+for column =a[j][i] only aur kuch change nhii krna ;
+
+lower triangular matrix=if(i<j),a[i][j]=0;
+upper triangular matrix=if(i>j),a[i][j]=0;
+sum of lower/upper triangular matrix;sum=sum+a[i];
+
+find pair in array by sum=a[i]+a[j]==sum;
+find majority element in array = find such number whichis gretaer than n/2 times;a[i]==a[j],count,count>n/2;
+
+kadanes algo=sum=sum+a[i];if(max< sum),max=sum;if(sum!=0),sum=0;
+max subarray sum in circular = find max subarray sum ,then min sdubasrray sum, find sum,p=sum-min,max(p,max) ;
+missing  number in unsorted array == use sum =sum+a[i] and n=(n*n+1)/2 ,n=n+1;
+missing number in sorted array=a[i+1]-a[i]>1,a[i]+1;
+
+rotation of array=while(no>0),temp=a[0],a[0]=a[i],a[i]=temp,no--;
+unique rows from a binary matrix=i,j,k;if(a[i][k]!=a[j][k]);
+
+stack=stack<char>s;for(auto it:x);s.push(it);if we want to pop then s.pop(); to check ki stack meinkuch hai or nahi then [s.size()==0 means stack khali hai];
+*parenthesis wala hoga stack se;if and else phle starting wala char dalne(push krne) hai stack mein  phir else mein check krne hai ki jo end wale hai wo mil raha haia kaya top s.top se jo val mein assign kr diya hai .
+uske baad agar stack s.size()==0 hai toh hmara string balanced hai
+*palindrome check=i=0;j=n-1;while(i<j);if(s[i]!=s[j]), return 0,i++,j--;return 1;
+*check string is rottation of each other or  not =if(s1.size()!==s2.size()),return 0;else ,string s=s1+s1;if(s.find(s2)==-1)return 0, else return 1;
+*anagram or not =pure sentence same hona chiye aage piche ho sakte hai ;if (s1.size()!==s2.size()),return 0;now sort both of them string ,string ko sort krte hai sort(s1.begin(),s1.end());
+agar now dono equal hai loop lgao ,for(),if(a[i]!=b[i]),return 0;}return 1;
